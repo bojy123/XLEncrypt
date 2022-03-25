@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08FD9E1B1ECFB78F3AF500EC /* XLEncrypt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98F81E7C2CC2145FDC193A4D /* XLEncrypt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		233F2E07A687BDD426ECF458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F0625737B4189FAE88019 /* Foundation.framework */; };
+		31A15C306AF35EA48F4BFD6E /* libPods-XLEncryptDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 687874E5562D02E6BDCF9320 /* libPods-XLEncryptDemo.a */; };
+		3F553B4B8D6E9424747E6D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87AB108583B5EA58B050828 /* Assets.xcassets */; };
+		60C56109B54C6374B6C5D512 /* libPods-XLEncrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02968EEDC09C9602B66C75E2 /* libPods-XLEncrypt.a */; };
+		67EAA03FDFE49D0B6CB6D256 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F0625737B4189FAE88019 /* Foundation.framework */; };
+		6A1951408C556B7EB64545D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54739AF4A20284FD84C6FC56 /* main.m */; };
+		78949284C4DFF620AE8C73BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388FE5FDC995A7A20A2C7DAA /* Main.storyboard */; };
+		84AE3B587D918DC607A4ACED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3937407FC3EA88B6A6A52ACB /* LaunchScreen.storyboard */; };
+		AA66278B27EDA54B00336CBB /* XLEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = AA66278A27EDA54B00336CBB /* XLEncrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA66278E27EDA59D00336CBB /* XLEncryptBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AA66278C27EDA59D00336CBB /* XLEncryptBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA66278F27EDA59D00336CBB /* XLEncryptBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AA66278D27EDA59D00336CBB /* XLEncryptBase.m */; };
+		AA66279227EDA60500336CBB /* XLEncrypt+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = AA66279027EDA60400336CBB /* XLEncrypt+AES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA66279327EDA60500336CBB /* XLEncrypt+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = AA66279127EDA60500336CBB /* XLEncrypt+AES.m */; };
+		AA66279627EDA82F00336CBB /* XLEncrypt+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = AA66279427EDA82F00336CBB /* XLEncrypt+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA66279727EDA82F00336CBB /* XLEncrypt+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = AA66279527EDA82F00336CBB /* XLEncrypt+MD5.m */; };
+		AA66279A27EDA87F00336CBB /* XLEncrypt+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = AA66279827EDA87F00336CBB /* XLEncrypt+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA66279B27EDA87F00336CBB /* XLEncrypt+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = AA66279927EDA87F00336CBB /* XLEncrypt+Base64.m */; };
+		AA66279E27EDA94100336CBB /* XLEncrypt+Json.h in Headers */ = {isa = PBXBuildFile; fileRef = AA66279C27EDA94100336CBB /* XLEncrypt+Json.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA66279F27EDA94100336CBB /* XLEncrypt+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = AA66279D27EDA94100336CBB /* XLEncrypt+Json.m */; };
+		AA6627A227EDA96700336CBB /* XLEncrypt+Url.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6627A027EDA96700336CBB /* XLEncrypt+Url.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6627A327EDA96700336CBB /* XLEncrypt+Url.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6627A127EDA96700336CBB /* XLEncrypt+Url.m */; };
+		BE044BBD1A7228670FB4D88F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25711C9FEF54EBD1A34906C /* AppDelegate.m */; };
+		E3723A50C48DF458FF0E60D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4617212F4B06ACCF88808A /* ViewController.m */; };
+		E52E0635A8D3489595271827 /* XLEncrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F81E7C2CC2145FDC193A4D /* XLEncrypt.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB86721129A41631383E73B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29417F3129BD570AA801E0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B4803BAF92CA034A8B23EA;
+			remoteInfo = XLEncrypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85214AB2F08CA7F411C1FEAC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				08FD9E1B1ECFB78F3AF500EC /* XLEncrypt.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02968EEDC09C9602B66C75E2 /* libPods-XLEncrypt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLEncrypt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD1626FB91DB76835026336 /* Pods-XLEncryptDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLEncryptDemo.debug.xcconfig"; path = "Target Support Files/Pods-XLEncryptDemo/Pods-XLEncryptDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		37051D41F46AA7D4B0687AD1 /* XLEncryptDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLEncryptDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		388FE5FDC995A7A20A2C7DAA /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3937407FC3EA88B6A6A52ACB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B70999833B6B236876C0AC5 /* Pods-XLEncrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLEncrypt.release.xcconfig"; path = "Target Support Files/Pods-XLEncrypt/Pods-XLEncrypt.release.xcconfig"; sourceTree = "<group>"; };
+		4E7F0625737B4189FAE88019 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		51B5FF772ECEDD76BD23BD7C /* AppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54739AF4A20284FD84C6FC56 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E5CBA93E11E773CFF452C42 /* Pods-XLEncryptDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLEncryptDemo.release.xcconfig"; path = "Target Support Files/Pods-XLEncryptDemo/Pods-XLEncryptDemo.release.xcconfig"; sourceTree = "<group>"; };
+		687874E5562D02E6BDCF9320 /* libPods-XLEncryptDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLEncryptDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E54FE5780491BCFE2D045C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A4617212F4B06ACCF88808A /* ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82C55B1B8E6A4C0B6A4C93E8 /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		895CE8CF55708E706F10FFE4 /* XLEncrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = XLEncrypt.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98F81E7C2CC2145FDC193A4D /* XLEncrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLEncrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA66278A27EDA54B00336CBB /* XLEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLEncrypt.h; path = ModuleCode/XLEncrypt.h; sourceTree = "<group>"; };
+		AA66278C27EDA59D00336CBB /* XLEncryptBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XLEncryptBase.h; path = ModuleCode/XLEncryptBase.h; sourceTree = SOURCE_ROOT; };
+		AA66278D27EDA59D00336CBB /* XLEncryptBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XLEncryptBase.m; path = ModuleCode/XLEncryptBase.m; sourceTree = SOURCE_ROOT; };
+		AA66279027EDA60400336CBB /* XLEncrypt+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "XLEncrypt+AES.h"; path = "ModuleCode/XLEncrypt+AES.h"; sourceTree = SOURCE_ROOT; };
+		AA66279127EDA60500336CBB /* XLEncrypt+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "XLEncrypt+AES.m"; path = "ModuleCode/XLEncrypt+AES.m"; sourceTree = SOURCE_ROOT; };
+		AA66279427EDA82F00336CBB /* XLEncrypt+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "XLEncrypt+MD5.h"; path = "ModuleCode/XLEncrypt+MD5.h"; sourceTree = SOURCE_ROOT; };
+		AA66279527EDA82F00336CBB /* XLEncrypt+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "XLEncrypt+MD5.m"; path = "ModuleCode/XLEncrypt+MD5.m"; sourceTree = SOURCE_ROOT; };
+		AA66279827EDA87F00336CBB /* XLEncrypt+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "XLEncrypt+Base64.h"; path = "ModuleCode/XLEncrypt+Base64.h"; sourceTree = SOURCE_ROOT; };
+		AA66279927EDA87F00336CBB /* XLEncrypt+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "XLEncrypt+Base64.m"; path = "ModuleCode/XLEncrypt+Base64.m"; sourceTree = SOURCE_ROOT; };
+		AA66279C27EDA94100336CBB /* XLEncrypt+Json.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "XLEncrypt+Json.h"; path = "ModuleCode/XLEncrypt+Json.h"; sourceTree = SOURCE_ROOT; };
+		AA66279D27EDA94100336CBB /* XLEncrypt+Json.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "XLEncrypt+Json.m"; path = "ModuleCode/XLEncrypt+Json.m"; sourceTree = SOURCE_ROOT; };
+		AA6627A027EDA96700336CBB /* XLEncrypt+Url.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "XLEncrypt+Url.h"; path = "ModuleCode/XLEncrypt+Url.h"; sourceTree = SOURCE_ROOT; };
+		AA6627A127EDA96700336CBB /* XLEncrypt+Url.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "XLEncrypt+Url.m"; path = "ModuleCode/XLEncrypt+Url.m"; sourceTree = SOURCE_ROOT; };
+		B6A3CE87D54F9C238412CCE5 /* Pods-XLEncrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLEncrypt.debug.xcconfig"; path = "Target Support Files/Pods-XLEncrypt/Pods-XLEncrypt.debug.xcconfig"; sourceTree = "<group>"; };
+		F25711C9FEF54EBD1A34906C /* AppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F87AB108583B5EA58B050828 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22010C53865FFDE737024CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233F2E07A687BDD426ECF458 /* Foundation.framework in Frameworks */,
+				E52E0635A8D3489595271827 /* XLEncrypt.framework in Frameworks */,
+				31A15C306AF35EA48F4BFD6E /* libPods-XLEncryptDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13323021FF7CDCF841EB5B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EAA03FDFE49D0B6CB6D256 /* Foundation.framework in Frameworks */,
+				60C56109B54C6374B6C5D512 /* libPods-XLEncrypt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		541EBD4139A15C049EE327C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37051D41F46AA7D4B0687AD1 /* XLEncryptDemo.app */,
+				98F81E7C2CC2145FDC193A4D /* XLEncrypt.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C41AA4FAF73B16CA9D0ACED /* ModuleCode */ = {
+			isa = PBXGroup;
+			children = (
+				AA66278C27EDA59D00336CBB /* XLEncryptBase.h */,
+				AA66278D27EDA59D00336CBB /* XLEncryptBase.m */,
+				AA66279027EDA60400336CBB /* XLEncrypt+AES.h */,
+				AA66279127EDA60500336CBB /* XLEncrypt+AES.m */,
+				AA66279427EDA82F00336CBB /* XLEncrypt+MD5.h */,
+				AA66279527EDA82F00336CBB /* XLEncrypt+MD5.m */,
+				AA66279827EDA87F00336CBB /* XLEncrypt+Base64.h */,
+				AA66279927EDA87F00336CBB /* XLEncrypt+Base64.m */,
+				AA66279C27EDA94100336CBB /* XLEncrypt+Json.h */,
+				AA66279D27EDA94100336CBB /* XLEncrypt+Json.m */,
+				AA6627A027EDA96700336CBB /* XLEncrypt+Url.h */,
+				AA6627A127EDA96700336CBB /* XLEncrypt+Url.m */,
+			);
+			name = ModuleCode;
+			path = ./ModuleCode;
+			sourceTree = "<group>";
+		};
+		6D78A7A6ACB9D7A70413BBEF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4E7F0625737B4189FAE88019 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F345EBC353C6E3C0C03C136 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54739AF4A20284FD84C6FC56 /* main.m */,
+				6E54FE5780491BCFE2D045C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F48AC33761F81DDB596E5AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D78A7A6ACB9D7A70413BBEF /* iOS */,
+				02968EEDC09C9602B66C75E2 /* libPods-XLEncrypt.a */,
+				687874E5562D02E6BDCF9320 /* libPods-XLEncryptDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9055080660A7ECD75D6E31E3 = {
+			isa = PBXGroup;
+			children = (
+				895CE8CF55708E706F10FFE4 /* XLEncrypt.podspec */,
+				AA66278A27EDA54B00336CBB /* XLEncrypt.h */,
+				ECA1D8CD648D789A6B775588 /* XLEncrypt */,
+				6C41AA4FAF73B16CA9D0ACED /* ModuleCode */,
+				6F48AC33761F81DDB596E5AA /* Frameworks */,
+				541EBD4139A15C049EE327C0 /* Products */,
+				96416C757A20F5D761F31EF4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		96416C757A20F5D761F31EF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B70999833B6B236876C0AC5 /* Pods-XLEncrypt.release.xcconfig */,
+				B6A3CE87D54F9C238412CCE5 /* Pods-XLEncrypt.debug.xcconfig */,
+				5E5CBA93E11E773CFF452C42 /* Pods-XLEncryptDemo.release.xcconfig */,
+				2AD1626FB91DB76835026336 /* Pods-XLEncryptDemo.debug.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ECA1D8CD648D789A6B775588 /* XLEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				51B5FF772ECEDD76BD23BD7C /* AppDelegate.h */,
+				F25711C9FEF54EBD1A34906C /* AppDelegate.m */,
+				F87AB108583B5EA58B050828 /* Assets.xcassets */,
+				82C55B1B8E6A4C0B6A4C93E8 /* ViewController.h */,
+				7A4617212F4B06ACCF88808A /* ViewController.m */,
+				3937407FC3EA88B6A6A52ACB /* LaunchScreen.storyboard */,
+				388FE5FDC995A7A20A2C7DAA /* Main.storyboard */,
+				6F345EBC353C6E3C0C03C136 /* Supporting Files */,
+			);
+			name = XLEncrypt;
+			path = ./XLEncrypt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C5EDCE729DF62491BBC2F7CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA66278B27EDA54B00336CBB /* XLEncrypt.h in Headers */,
+				AA66279A27EDA87F00336CBB /* XLEncrypt+Base64.h in Headers */,
+				AA66279227EDA60500336CBB /* XLEncrypt+AES.h in Headers */,
+				AA6627A227EDA96700336CBB /* XLEncrypt+Url.h in Headers */,
+				AA66278E27EDA59D00336CBB /* XLEncryptBase.h in Headers */,
+				AA66279E27EDA94100336CBB /* XLEncrypt+Json.h in Headers */,
+				AA66279627EDA82F00336CBB /* XLEncrypt+MD5.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D002BCD53DAF9160178183FC /* XLEncryptDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2CBD7BD55FBD338FE88F16 /* Build configuration list for PBXNativeTarget "XLEncryptDemo" */;
+			buildPhases = (
+				664CA086FA9CC2C8BDAC2976 /* [CP] Check Pods Manifest.lock */,
+				0195B81C7286A96D099B890A /* Sources */,
+				22010C53865FFDE737024CB2 /* Frameworks */,
+				DFC9D8A3B26CDF205CABB9EC /* Resources */,
+				85214AB2F08CA7F411C1FEAC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5ADB02C3AA2B1827BFFAB5A /* PBXTargetDependency */,
+			);
+			name = XLEncryptDemo;
+			productName = XLEncryptDemo;
+			productReference = 37051D41F46AA7D4B0687AD1 /* XLEncryptDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5B4803BAF92CA034A8B23EA /* XLEncrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E90685D85C359F7476F893E /* Build configuration list for PBXNativeTarget "XLEncrypt" */;
+			buildPhases = (
+				FA06B89386F79EC8D42D3C61 /* [CP] Check Pods Manifest.lock */,
+				C5EDCE729DF62491BBC2F7CB /* Headers */,
+				9AE3691C32F5E4A640F7AA92 /* Sources */,
+				C13323021FF7CDCF841EB5B6 /* Frameworks */,
+				889F435839ADAA03E630BFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLEncrypt;
+			productName = XLEncrypt;
+			productReference = 98F81E7C2CC2145FDC193A4D /* XLEncrypt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29417F3129BD570AA801E0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XL;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D002BCD53DAF9160178183FC = {
+						DevelopmentTeam = WU2WFZ2B66;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 1DF050DB6828D8D5A3BA2B4B /* Build configuration list for PBXProject "XLEncrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9055080660A7ECD75D6E31E3;
+			productRefGroup = 541EBD4139A15C049EE327C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D002BCD53DAF9160178183FC /* XLEncryptDemo */,
+				D5B4803BAF92CA034A8B23EA /* XLEncrypt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		889F435839ADAA03E630BFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC9D8A3B26CDF205CABB9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F553B4B8D6E9424747E6D01 /* Assets.xcassets in Resources */,
+				84AE3B587D918DC607A4ACED /* LaunchScreen.storyboard in Resources */,
+				78949284C4DFF620AE8C73BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		664CA086FA9CC2C8BDAC2976 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLEncryptDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA06B89386F79EC8D42D3C61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLEncrypt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0195B81C7286A96D099B890A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE044BBD1A7228670FB4D88F /* AppDelegate.m in Sources */,
+				E3723A50C48DF458FF0E60D4 /* ViewController.m in Sources */,
+				6A1951408C556B7EB64545D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE3691C32F5E4A640F7AA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA66278F27EDA59D00336CBB /* XLEncryptBase.m in Sources */,
+				AA6627A327EDA96700336CBB /* XLEncrypt+Url.m in Sources */,
+				AA66279F27EDA94100336CBB /* XLEncrypt+Json.m in Sources */,
+				AA66279727EDA82F00336CBB /* XLEncrypt+MD5.m in Sources */,
+				AA66279B27EDA87F00336CBB /* XLEncrypt+Base64.m in Sources */,
+				AA66279327EDA60500336CBB /* XLEncrypt+AES.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5ADB02C3AA2B1827BFFAB5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLEncrypt;
+			target = D5B4803BAF92CA034A8B23EA /* XLEncrypt */;
+			targetProxy = BB86721129A41631383E73B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E49E85D53260C51DF825B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD1626FB91DB76835026336 /* Pods-XLEncryptDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_STYLE[sdk=iphoneos*]" = Manual;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = WU2WFZ2B66;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = XLEncrypt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xl.XLEncryptDemo;
+				PROVISIONING_PROFILE_SPECIFIER = developAll;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		38AAE264EB2F11C831DE7ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3B63C219CD7DF46A10810A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7338C51D66102C9E41A41B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B70999833B6B236876C0AC5 /* Pods-XLEncrypt.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=*]" = armv7;
+				INFOPLIST_FILE = XLEncrypt/ModuleFrameworkInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xl.XLEncrypt;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		968981F4F13EECF859A94F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5CBA93E11E773CFF452C42 /* Pods-XLEncryptDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_STYLE[sdk=iphoneos*]" = Manual;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = WU2WFZ2B66;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = XLEncrypt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xl.XLEncryptDemo;
+				PROVISIONING_PROFILE_SPECIFIER = developAll;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C66BA98B0038B07205075DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A3CE87D54F9C238412CCE5 /* Pods-XLEncrypt.debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = armv7;
+				INFOPLIST_FILE = XLEncrypt/ModuleFrameworkInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xl.XLEncrypt;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF050DB6828D8D5A3BA2B4B /* Build configuration list for PBXProject "XLEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B63C219CD7DF46A10810A14 /* Debug */,
+				38AAE264EB2F11C831DE7ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E90685D85C359F7476F893E /* Build configuration list for PBXNativeTarget "XLEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7338C51D66102C9E41A41B7E /* Release */,
+				C66BA98B0038B07205075DBC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2CBD7BD55FBD338FE88F16 /* Build configuration list for PBXNativeTarget "XLEncryptDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968981F4F13EECF859A94F39 /* Release */,
+				2E49E85D53260C51DF825B3F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F29417F3129BD570AA801E0C /* Project object */;
+}
